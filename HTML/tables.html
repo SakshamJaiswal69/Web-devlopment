@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>/* -------- Reset -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* -------- Body -------- */
+body {
+    background: linear-gradient(135deg, #0b3d2e, #145a32);
+    color: #ffffff;
+    padding: 30px;
+}
+
+/* -------- Heading -------- */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+    letter-spacing: 1px;
+}
+
+/* -------- Table -------- */
+table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #2c3e50;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* -------- Caption -------- */
+caption {
+    caption-side: top;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+/* -------- Table Head -------- */
+thead {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+}
+
+/* -------- Table Rows -------- */
+tbody tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e8f5e9;
+}
+
+/* -------- Hover Effect -------- */
+tbody tr:hover {
+    background-color: #ffeb3b;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* -------- Salary Highlight -------- */
+td:last-child {
+    font-weight: bold;
+    color: #c62828;
+}
+
+/* -------- HR -------- */
+hr {
+    margin-top: 30px;
+    border: none;
+    height: 2px;
+    background-color: #ffeb3b;
+}
+</style>
+</head>
+<body>
+      <h2>Table</h2>
+    <table>
+        <caption>Salary Data</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Saksham</td>
+                <td>SDE-II</td>
+                <td>$55000</td>
+            </tr>
+            <tr>
+                <td>Suryansh</td>
+                <td>Data Analyst</td>
+                <td>$45000</td>
+            </tr>
+            <tr>
+                <td>Samarth</td>
+                <td>SDE-II</td>
+                <td>$60000</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><hr>
+</body>
+</html>
