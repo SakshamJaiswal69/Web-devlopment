@@ -4,6 +4,173 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Myfirst</title>
+        <style>/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ========== BODY ========== */
+body {
+    background: #f5f7fa;
+    color: #2c2c2c;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+/* ========== HEADINGS ========== */
+h1 {
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #3a5ba0;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: #5c7cfa;
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+
+/* Custom <n> tag styling (non-standard but fun 😄) */
+n {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+/* ========== PARAGRAPHS & TEXT ========== */
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+big {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+small {
+    font-size: 13px;
+    color: #666;
+}
+
+/* ========== HR & BR ========== */
+hr {
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #1f3c88, #90caf9);
+}
+
+/* ========== LINKS ========== */
+a {
+    color: #1f3c88;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ========== IMAGES ========== */
+img {
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ========== LISTS ========== */
+ol {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* ========== FORM SECTION ========== */
+form {
+    background: #ffffff;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Focus */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #1f3c88;
+    box-shadow: 0 0 0 2px rgba(31, 60, 136, 0.2);
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #1f3c88;
+    color: #ffffff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+input[type="submit"]:hover {
+    background-color: #163172;
+}
+
+/* ========== IFRAMES ========== */
+iframe {
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
     </head>
     <body>
         <h1>IT IS H1
