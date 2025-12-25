@@ -1,0 +1,212 @@
+<!--tables,Lists-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>/* ---------- Reset ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ---------- Body ---------- */
+body {
+    background: linear-gradient(135deg, #eef2f7, #dbe7ff);
+    padding: 30px;
+    color: #333;
+}
+
+/* ---------- Heading ---------- */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f3c88;
+    font-size: 32px;
+}
+
+/* ---------- Form ---------- */
+form {
+    max-width: 650px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Form Sections ---------- */
+form div {
+    margin-bottom: 16px;
+}
+
+/* ---------- Labels ---------- */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1f3c88;
+}
+
+/* ---------- Inputs & Select & Textarea ---------- */
+input[type="Name"],
+input[type="number"],
+input[type="Email"],
+input[type="date"],
+input[type="Password"],
+select,
+textarea {
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+    transition: all 0.3s ease;
+}
+
+/* ---------- Focus Effect ---------- */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1f3c88;
+    box-shadow: 0 0 0 2px rgba(31, 60, 136, 0.15);
+}
+
+/* ---------- HR ---------- */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 18px 0;
+}
+
+/* ---------- Subscription Section ---------- */
+p {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1f3c88;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* ---------- Checkbox ---------- */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+#terms + label {
+    font-size: 14px;
+}
+
+/* ---------- Textarea ---------- */
+textarea {
+    resize: vertical;
+}
+
+/* ---------- Submit Button ---------- */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1f3c88;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* ---------- Button Hover ---------- */
+button:hover {
+    background-color: #163172;
+    transform: translateY(-2px);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+</style>
+</head>
+<body>
+  
+<h2>Forms</h2>
+<form action="/Submit.php">
+    <div>
+        <label for="Name">Name</label>
+        <input type="Name" id="Name" name="Name" placeholder="Enter your name:">
+    </div>
+    <hr>
+    <div>
+        <label for="Phone">Phone</label>
+        <input  type="number"id="Phone" name="Phone" placeholder="Enter your phone no:">
+    </div>
+    <hr>
+    <div>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" name="Email" placeholder="Enter your email:" required>
+    </div>
+    <hr>
+    <div>
+        <label for="DOB">DOB</label>
+        <input  type="date" id="DOB" name="DOB" placeholder="Enter your DOB no:" required>
+    </div>
+    <hr>
+    <div>
+        <label for="Password">Password</label>
+        <input type="Password" id="Password" name="Password" placeholder="Enter your Password:" required>
+    </div>
+    <hr>
+    <div>
+        <label for="Gender">Gender</label>
+        <!-- <input  type="Gender" id="Gender" name="Gender" placeholder="Enter your Gender no:"> -->
+         <select name="Gender" id="Gender" required>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value=""disabled selected>Select gender</option>
+         </select>
+    </div>
+    <hr>
+    <div>
+        <p>Subscription plan</p>
+        <input type="radio" id="Basic" name="Subscription" value="Basic">
+        <label for="Basic">Basic</label>
+        <input type="radio" id="medium" name="Subscription" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="premium" name="Subscription" value="premium">
+        <label for="premium">Premium</label>
+    </div>
+    <div>
+        <input type="checkbox" id="terms" name="terms"required>
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    <div>
+        <label for="Your Review">Your Review</label>
+        <textarea name="Your Review" id="Your Review" placeholder="Your Review"
+        rows="3"></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
