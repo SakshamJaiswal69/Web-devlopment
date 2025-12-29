@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size:25px;
+    padding-left: 30%;
+    /* padding shorthand clockwise */
+}
+
+#inner{
+    font-size:10px;
+    height: 100px;
+    width: 50px;
+}
+h3{
+    border-color:whitesmoke;
+    color: cornsilk;
+    /* border-style: solid;
+    background-color: black;
+    border-width: 4px; */
+    height:100px;
+    width:100px;
+    border:4px black solid;
+    border-radius: 20%;
+}
+h4{
+    border-color:whitesmoke;
+    color: cornsilk;
+    /* border-style: solid;
+    background-color: black;
+    border-width: 4px; */
+    height:100px;
+    width:100px;
+    border:4px black solid;
+    border-radius: 50%;
+}
+body{
+    background-color: grey;
+}
