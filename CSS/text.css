@@ -1,0 +1,32 @@
+p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform:capitalize;
+    line-height:normal;
+}
+h1{
+    text-align :center;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+/* font-weight : normal/bold/bolder/lighter */
+/* font-weight :100-900 */
+/* font-family : serif/sans-serif/monospace */
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* units in  CSS 
+ABSOLUTE or RELATIVE 
+ PIXELS 1 inch = 96 pixels*/
+ #one{
+    font-size:25px;
+    text-transform:uppercase;
+    
+ }
+ #two{
+    font-size:35px;
+    text-transform:lowercase;
+ }
