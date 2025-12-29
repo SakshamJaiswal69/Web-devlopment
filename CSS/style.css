@@ -1,0 +1,17 @@
+h1{
+    color: rgb(239, 77, 41);
+    background-color:rgb(255, 255, 255);
+}
+h3{
+    color:whitesmoke;
+}
+body{
+    background-color: black;
+}
+p{
+    color:lightpink
+}
+button{
+    color:rgb(103, 246, 200);
+    background-color: rgb(255, 0, 0);
+}
