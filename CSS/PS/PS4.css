@@ -1,0 +1,21 @@
+#b1{
+    background-color:beige
+}
+#b2{
+    background-color:yellowgreen
+}
+#b3{
+    background-color:burlywood
+}
+div{
+    height:80px;
+    width:100px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
+#box{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:inline;
+}
