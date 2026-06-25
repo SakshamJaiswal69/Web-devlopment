@@ -47,11 +47,13 @@ h1{
 
 nav{
     height: 90px;
-    /* width: 300px; */
+    /* width: 800px; */
     color: antiquewhite;
-    border: 5%;
-    
-    padding-top: 1px;
+    /* border: 5%; */
+   #car{margin-left: 170px;}
+   #ac{padding-left: 100px;}
+   #con{margin-left: 235px;}
+    /* padding-top: 1px; */
     padding-bottom: 1px;
     border-radius: 15px;
     background-color: black;
