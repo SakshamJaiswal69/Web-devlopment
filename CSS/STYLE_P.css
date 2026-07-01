@@ -1,0 +1,51 @@
+PS1
+*{
+    margin:0px;
+    padding: 0px;
+}
+.PS1{
+    width: 500px;
+    background-size: contain;
+    background-position: center ;
+}
+.red{ 
+    margin:0px;
+    padding: 0px;  
+    background-color: red;
+    color: whitesmoke;
+}
+.blue{ 
+    margin:0px;
+    padding: 0px; 
+     
+    background-color: red;
+    color: whitesmoke;
+}
+#head{
+    color: yellow;
+}
+p{
+    color: blueviolet;
+}
+
+/* PS2 */
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navlinks a{
+    color: orange;
+    background-size: cover; 
+}
+#navbar{
+    position:sticky;
+    background: #cff31f; 
+    width: 150px;;
+}
+.PS2{
+    /* background-color: red;
+    background-image: url(Screenshot\ \(36\).png);
+    background-attachment: fixed; */
+    background: red fixed url(Screenshot\ \(36\).png);
+    width: 250px;
+}
