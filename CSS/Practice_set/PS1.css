@@ -1,0 +1,37 @@
+*/{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.PS1{
+    width: 500px;
+    background-size: contain;
+    background-position: center ;
+}
+.red{ 
+    margin:0px;
+    padding: 0px;  
+    background-color: red;
+    color: whitesmoke;
+}
+.blue{ 
+    margin:0px;
+    padding: 0px; 
+     
+    background-color: red;
+    color: whitesmoke;
+}
+#head{
+    color: yellow;
+}
+p{
+    color: blueviolet;
+}
+.red a{
+    color:skyblue;
+    text-decoration: underline;
+    margin: 1px;
+    border: 2px dashed black;
+
+}
