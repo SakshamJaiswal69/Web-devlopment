@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navlinks a{
+    color: orange;
+    background-size: cover; 
+}
+#navbar{
+    position:sticky;
+    background: #cff31f; 
+    width: 150px;;
+}
+.PS2{
+     background-color: red;
+    background-image: url(Screenshot\ \(36\).png);
+    background-attachment: fixed; 
+    background: red fixed url(Screenshot\ \(36\).png);
+    width: 250px;
+} 
