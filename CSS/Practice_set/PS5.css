@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{ 
+    
+    padding: 10px;
+    background-color: black;
+    /* display: inline; */
+    position: sticky;
+    top: 0;
+}
+li{
+    margin:10px;
+    font-size: 3vw;
+    display: inline;
+    background-color: black;
+    color: azure;
+}
+.container{
+    background-color: chartreuse;
+    height:200vh;
+    position:relative;
+    z-index: 3;
+    top:0;
+}
