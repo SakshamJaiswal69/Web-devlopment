@@ -1,0 +1,29 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: #000;
+}
+img{
+    display: inline-block;
+    width: 120px;
+    background-color: beige;
+}.nav{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-size:xx-large;
+} 
+
+li {
+    font-size: larger;
+    display: inline;
+    padding-left: 200px; 
+}
+a:hover{
+    color: yellow;
+}
