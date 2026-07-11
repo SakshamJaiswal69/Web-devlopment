@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    position: sticky;
+    z-index: 1;
+    top:0;
+    
+    
+    background-color: #000;
+    height: 9vh;
+}
+li{
+   
+    display: inline;
+    padding: 1vw;
+}
+li a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.nav-links{
+    position: relative;
+    left: 45vw;
+    top:2vh ;
+   
+    font-size: larger;
+    display: inline;
+}
+
+.navbar{
+
+display: inline;
+}
+.logo{
+    text-decoration: underline yellow;
+    position: relative;
+    top: 1vw;
+    display: inline;
+    margin-left: 4vw;
+    color:yellow;
+    font-size: 6vh;
+    font-family:  Georgia, Times, 'Times New Roman', serif
+}
+.logo:hover{
+    color: gold;
+    text-decoration-color: gold;
+   
+}
+.blogs{
+   
+    line-height: 20px;
+}
