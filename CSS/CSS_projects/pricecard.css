@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+.box{
+    position:relative;
+    left:30vw;
+    background-color: antiquewhite;
+    width: 30vw;
+    height: 100vh;
+}
+article{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.box1{
+    padding-left: 2vh;
+    position:relative;
+    top:25px;
+    left:30px;
+    
+    width:25vw;
+    height:93vh;
+    border: 5px solid black;
+    border-radius: 5%;
+}
+h2{
+    text-align: center;
+}
+li{
+    list-style-position: inside;
+}
+.button{
+    background-color: rgb(220, 32, 32);
+    color: aliceblue;
+    position: relative;
+    left: 9vw;
+    display: inline;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkblue;
+}
