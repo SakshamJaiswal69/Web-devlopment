@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 30vw;
+    height: 90vh;
+    display: inline-block;
+    position: fixed;
+    left: 70vw;
+    background: #535353;
+}
+
+body {
+    background-color: #000000;
+}
+
+.round {
+    position: relative;
+    top: 15vh;
+    background-color: grey;
+    margin: 20px;
+}
+
+.name {
+    /* display: inline; */
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+input {
+    padding: 20px;
+    width: 22vw;
+}
+
+.round1 {
+    position: relative;
+    top: 15vh;
+    background-color: grey;
+    margin: 20px;
+}
+
+.pass {
+    /* display: inline; */
+    position: relative;
+    left: 10px;
+    
+    padding: 10px;
+}
+
+input {
+    
+    background: transparent;
+    border: 1px solid rgb(251, 251, 251);
+    color: rgb(251, 251, 251);
+    padding: 20px;
+    width: 22vw;
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+.box1 {
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 17vh;
+    background-color: blue;
+    width: 26vw;
+    border-radius: 20px;
+}
+
+.login a {
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    margin-left: 12vw;
+    padding: auto;
+}
+.box4 {
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 19vh;
+    background-color: transparent;
+    width: 26vw;
+    border-radius: 20px;
+}
+
+.Forget a {
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    margin-left: 10vw;
+    padding: auto;
+}
+
+.box2 {
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 28vh;
+    background-color: blue;
+    width: 26vw;
+    border-radius: 20px;
+}
+header{
+    display: inline;
+}
+.im{
+    display: inline;
+}
+img{
+    display: inline;
+    
+    width:50px;
+}
+button {
+    position: relative;
+    top: 7vh;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+
+h3 {
+    position: relative;
+    top: 8vh;
+    left: 2vh;
+    font-size: xx-large;
+    display: inline;
+    font-family: Georgia;
+}
+
+.fb a {
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    margin-left: 10vw;
+    padding: auto;
+}
+
+.box3 {
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 29vh;
+    background-color: blue;
+    width: 26vw;
+    border-radius: 20px;
+}
+
+.another a {
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    margin-left: 9vw;
+    padding: auto;
+}
+.foot{
+    background-color: gray;
+    display:inline-block;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    color: aliceblue;
+}
+.foot a{
+    margin-left: 4vw;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+li{
+    text-align: center;
+    display: inline;
+}
+p{
+    display: inline-block;
+    position: relative;
+    left: 45vw;
+}
+.see {
+    display:inline-block;
+    color: white;
+}
