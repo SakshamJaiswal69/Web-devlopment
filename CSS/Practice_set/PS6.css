@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    padding:20px;
+    background-color:black;
+    color:whitesmoke;
+}
+.nav{
+    display:inline;
+}
+li{
+    display:inline;
+    padding:0px 25px;
+}
+.box1L{
+    width:40vw;
+    height:80vh;
+    background-color:lightsalmon;
+    float:left
+}
+.box2R{
+    width:40vw;
+    height:80vh;
+    background-color:lightseagreen;
+    float:right
+}
