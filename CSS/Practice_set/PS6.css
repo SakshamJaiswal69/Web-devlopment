@@ -6,6 +6,7 @@ header{
     padding:20px;
     background-color:black;
     color:whitesmoke;
+ 
 }
 .nav{
     display:inline;
@@ -14,15 +15,66 @@ li{
     display:inline;
     padding:0px 25px;
 }
-.box1L{
+/* Using Float  */
+/* .box1L{
     width:40vw;
     height:80vh;
     background-color:lightsalmon;
-    float:left
+    float:left;
 }
 .box2R{
     width:40vw;
     height:80vh;
     background-color:lightseagreen;
-    float:right
+    float:right;
 }
+.middle{
+    display:inline-block;
+    width: 20vw;
+    height: 80vh;
+    background-color:lightgreen;
+    
+} */
+ /* USing flex property */
+ .container{
+    display:flex;
+    justify-items: center;
+    justify-content: space-between;
+ }
+ .box1L{
+    width:36vw;
+    height:80vh;
+    background-color:lightsalmon;
+   
+}
+.box2R{
+    width:36vw;
+    height:80vh;
+    background-color:lightseagreen;
+}
+.middle{
+     align-self: flex-start;
+    width: 16vw;
+    height: 80vh;
+    background-color:lightgreen;
+    
+}
+ .container1{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .box1{
+    width:18vw;
+    height: 40vh;
+    
+    background-color:aqua;
+    position:relative;
+    top:5vh;
+ }
+ .box2{
+    width:18vw;
+    height: 40vh;
+    background-color:chartreuse;
+    position:relative;
+    top:5vh;
+ }
