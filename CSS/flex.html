@@ -5,7 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox</title>
-    <link rel="stylesheet" href="flex.css">
+    <style>
+*{
+    margin: 0;
+    padding:0;
+
+}
+.container{
+    display:flex;
+    /* flex-direction:column; */
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    background-color:lightblue;
+    height:100vh;
+    align-items: first baseline;
+    /* align-content:center;} */
+}
+.box1{
+    /* height:22vh;
+    width:20vw; */
+    height:256px;
+    width:300px;
+    background-color:orange;
+    border:2px solid black;
+    order:5;
+    /* align-self:flex-end; */
+    flex-grow:1;
+}
+.box2{
+    /* height:22vh;
+    width:20vw; */
+    width:300px;
+    height:256px;
+    background-color:red;
+    border:2px solid black;
+    order:4;
+    
+}
+
+
+    </style>
 </head>
 
 <body>
