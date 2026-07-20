@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <Style>
+        .container{
+            display:grid;
+            height: 56vh;
+            background-color:lightblue;
+            grid-row-gap:10px;
+            grid-column-gap:10px;
+            grid-template-columns: auto auto auto ;
+            justify-content:center;
+        }
+        .box1{
+            background-color:orangered;
+            border:1px solid black;
+            
+        }
+    
+        .container1{
+            display:grid;
+            background-color:lightsalmon;
+           /* grid-row-column shorthand */
+            grid-gap:10px 10px;
+            grid-template-columns: auto auto auto auto auto auto;
+            height: 56vh;
+            
+            align-content: center;
+        }
+        .box2{
+            background-color:yellow;
+            border:1px solid black;
+            
+        }
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1" style="grid-column:1 / 4;">Box 1</div>
+        <div class="box1">Box 2</div>
+        <div class="box1">Box 3</div>
+        <div class="box1">Box 4</div>
+        <div class="box1">Box 5</div>
+        <div class="box1">Box 6</div>
+        <div class="box1">Box 7</div>
+        <div class="box1">Box 8</div>
+        <div class="box1">Box 9</div>
+    </div>
+    <br>
+    <div class="container1">
+        <div class="box2" style="grid-column:1 / 2;">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box2">Box 3</div>
+        <div class="box2">Box 4</div>
+        <div class="box2" style="grid-column:3/ span 4;
+        grid-row:1 / span 4">Box 5</div>
+        <div class="box2">Box 6</div>
+        <div class="box2">Box 7</div>
+        <div class="box2">Box 8</div>
+        <div class="box2">Box 9</div>
+    </div>
+</body>
+</html>
