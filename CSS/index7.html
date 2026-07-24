@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 200px;
+        }
+
+        img {
+            background-color: aqua;
+            height: 40vh;
+            width: 20vw;
+            /* transition-property: width,height;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s; */
+            transition: width 2s ease-in-out 2s ,height 4s ease-in-out 2s;
+            /* border: 2px solid black; */
+            /* transform: translate(34px) rotateY(80deg) rotateY(125deg) rotateZ(125deg); */
+            /* transform: matrix(1,0.2,3,1.4,2,10); */
+            /* transform: scale(3,5); */
+            /* transform: skew(30deg ,30deg); */
+        }
+
+        img:hover {
+            width: 155px;
+            height: 456px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="mying" src="Practice_set/image/people.png" alt="">
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    // btn.addEventListener("click", () => {
+    //     mying.style.width = "567px";
+
+    // });
+    mying.style.width ='146px';
+    mying.style.height ='90px';
+    btn.addEventListener("click", ()=>{
+        mying.style.height ='456px';
+        if(mying.style.width === '546px'){
+            mying.style.width = "146px";
+        }
+        else if(mying.style.width === '146px'){
+            mying.style.width = "546px";
+        }
+
+    })
+</script>
+
+</html>
