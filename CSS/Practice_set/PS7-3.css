@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.head{
+    background-color:black;
+    height: 50px;
+    display: flex;
+    
+}
+li a{
+    
+    list-style: none;
+    color:aliceblue;
+}
+li{
+   
+    display:inline-flex;
+    /* justify-content: center; */
+   
+}
+
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    body{
+        background-color: yellow;
+        
+    }
+}
+@media screen and (max-width:1200px)and (min-width:600px) {
+    body{
+        background-color: red;
+    }
+}
+@media screen and (max-width:1920px)and (min-width:1200px) {
+    body{
+        background-color: burlywood;
+    }
+}
