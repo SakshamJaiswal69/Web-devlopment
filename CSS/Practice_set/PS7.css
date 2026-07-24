@@ -1,0 +1,40 @@
+header{
+   display: grid;
+    background-color:black;
+    
+    height:10vh;
+     grid-column-gap:10px;
+     grid-row-gap:10px;
+     grid-template-columns :auto auto auto;
+     justify-content:flex-end;
+     align-content: end;
+    /* width: vw; */
+}
+
+.b1{
+  
+    border: 2px solid lightcoral;
+    color: black;
+    background-color: aliceblue;
+    height: 2vh;
+}
+.header1{
+   display: grid;
+    background-color:black;
+    
+    height:10vh;
+     grid-column-gap:10px;
+     grid-row-gap:10px;
+     grid-template-columns :auto auto auto;
+     justify-content:left;
+     align-content: end;
+    /* width: vw; */
+}
+
+.b2{
+  
+    border: 2px solid lightcoral;
+    color: black;
+    background-color: aliceblue;
+    height: 2vh;
+}
