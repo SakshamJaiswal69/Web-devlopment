@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 20vh;
+            width: 10vw;
+            color: yellowgreen;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation-name: WAnimate;
+            animation-duration: 2.5s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 4;
+            animation-direction: alternate; */
+            /* animation: WAnimate2 3s ease-in-out 4 alternate-reverse 1s; */
+        }
+
+        .box1 {
+            height: 20vh;
+            width: 10vw;
+            color: yellowgreen;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: WAnimate2 3s ease-in-out 4 alternate-reverse 1s;
+        }
+
+        img {
+            animation: WAnimate2 3s ease-in-out 4 alternate-reverse 1s;
+            width: 6vh;
+        }
+
+        hr {
+            color: black;
+        }
+
+        @keyframes WAnimate {
+            from {
+                width: 10vw;
+                height: 20vh;
+            }
+
+            to {
+                width: 20vw;
+                height: 40vh;
+
+            }
+        }
+
+        @keyframes WAnimate2 {
+            0% {
+                width: 10vw;
+                height: 20vh;
+            }
+
+            50% {
+                width: 35vw;
+                height: 45vh;
+
+            }
+
+            100% {
+                width: 70vw;
+                height: 95vh;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="box">this is a box</div> -->
+        <br>
+        <hr> <br>
+        <div class="box1">
+            <img src="Practice_set/image/people.png" alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>
